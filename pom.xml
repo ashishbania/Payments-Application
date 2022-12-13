@@ -20,5 +20,8 @@
     <modules>
         <module>accounts-api/accounts-api</module>
         <module>balances-api/balances-api</module>
+        <module>eureka-server/eureka-server</module>
+        <module>apigateway/apigateway</module>
+        <module>hys-dashboard</module>
     </modules>
 </project>

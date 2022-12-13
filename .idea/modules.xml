@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/accounts-api/accounts-api/accounts-api.iml" filepath="$PROJECT_DIR$/accounts-api/accounts-api/accounts-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apigateway/apigateway/apigateway.iml" filepath="$PROJECT_DIR$/apigateway/apigateway/apigateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/balances-api/balances-api/balances-api.iml" filepath="$PROJECT_DIR$/balances-api/balances-api/balances-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hys-dashboard/hys-dashboard.iml" filepath="$PROJECT_DIR$/hys-dashboard/hys-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/payments-app.iml" filepath="$PROJECT_DIR$/payments-app.iml" />
     </modules>
   </component>

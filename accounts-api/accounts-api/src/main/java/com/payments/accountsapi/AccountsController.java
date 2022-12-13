@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping(path = "/api/v1/accounts")
+@RequestMapping(path = "/account")
 public class AccountsController {
 
     Logger logger = LoggerFactory.getLogger(AccountsController.class);
@@ -40,7 +40,6 @@ public class AccountsController {
 //        return accountService.getAllAccounts().stream().filter(x-> x.getStatus().equals(status)).collect(Collectors.toList());
 //    }
 
-    @GetMapping()
     @PostMapping
     public ResponseEntity addAccounts(@RequestBody Accounts accounts){
         String addAccountResponse= accountService.addAccounts(accounts);

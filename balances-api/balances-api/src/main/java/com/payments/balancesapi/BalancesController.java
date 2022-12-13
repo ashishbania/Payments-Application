@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "/api/v1/balances")
+@RequestMapping(path = "/balance")
 public class BalancesController {
     @Autowired
     private final BalancesService balancesService;
