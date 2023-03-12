@@ -15,6 +15,10 @@ public class BalancesServiceImpl
     @Autowired
     private BalancesRepository balancesRepository;
 
+    public BalancesServiceImpl(BalancesRepository balancesRepository) {
+        this.balancesRepository=balancesRepository;
+    }
+
     //Method to get transaction by transactionId. throws NoSuchElementFoundException
     @Override
     public Balances getTransactions(Integer id) {

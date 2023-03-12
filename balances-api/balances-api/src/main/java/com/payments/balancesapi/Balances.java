@@ -41,6 +41,16 @@ public class Balances {
         this.transactionInformation = transactionInformation;
     }
 
+    public Balances(Integer transactionId, Integer accountId, String cardNumber, String amount, String currency, String creditDebitIndicator, String status) {
+        this.transactionId = transactionId;
+        this.accountId = accountId;
+        this.cardNumber = cardNumber;
+        this.amount = amount;
+        this.currency = currency;
+        this.creditDebitIndicator = creditDebitIndicator;
+        this.status = status;
+    }
+
     public Integer getTransactionId() {
         return transactionId;
     }
