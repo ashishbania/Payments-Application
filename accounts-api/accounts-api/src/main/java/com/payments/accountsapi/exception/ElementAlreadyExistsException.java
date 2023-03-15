@@ -1,14 +1,13 @@
 package com.payments.accountsapi.exception;
-public class ElementAlreadyExistsException
-        extends RuntimeException {
 
-    private String message;
+public class ElementAlreadyExistsException extends RuntimeException {
 
-    public ElementAlreadyExistsException() {}
+  private String message;
 
-    public ElementAlreadyExistsException(String msg)
-    {
-        super(msg);
-        this.message = msg;
-    }
+  public ElementAlreadyExistsException() {}
+
+  public ElementAlreadyExistsException(String msg) {
+    super(msg);
+    this.message = msg;
+  }
 }

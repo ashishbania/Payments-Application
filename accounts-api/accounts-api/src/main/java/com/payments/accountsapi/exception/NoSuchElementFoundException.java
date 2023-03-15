@@ -1,14 +1,13 @@
 package com.payments.accountsapi.exception;
-public class NoSuchElementFoundException
-        extends RuntimeException {
 
-    private String message;
+public class NoSuchElementFoundException extends RuntimeException {
 
-    public NoSuchElementFoundException() {}
+  private String message;
 
-    public NoSuchElementFoundException(String msg)
-    {
-        super(msg);
-        this.message = msg;
-    }
+  public NoSuchElementFoundException() {}
+
+  public NoSuchElementFoundException(String msg) {
+    super(msg);
+    this.message = msg;
+  }
 }
