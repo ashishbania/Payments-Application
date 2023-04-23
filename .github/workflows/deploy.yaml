@@ -30,7 +30,7 @@ jobs:
           gcr_hostname: gcr.io
           image_name: my-app
           tags: ${{ env.IMAGE_TAG }}
-          dockerfile: Dockerfile
+          dockerfile: docker/Dockerfile
 
       - name: Configure kubectl
         run: |
