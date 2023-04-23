@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-app
+  name: accounts-api
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: my-app
+      app: accounts-api
   template:
     metadata:
       labels:
-        app: my-app
+        app: accounts-api
     spec:
       containers:
-        - name: my-app
-          image: gcr.io/custom-helix-384522/my-app
+        - name: accounts-api
+          image: gcr.io/custom-helix-384522/accounts-api
           ports:
             - containerPort: 8080
           env:
             - name: SPRING_PROFILES_ACTIVE
-              value: "production"
+              value: "test"

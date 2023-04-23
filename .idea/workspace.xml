@@ -4,21 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f08a268-01ff-4b7f-9aa7-d7a3a616e12a" name="Changes" comment="" />
+    <list default="true" id="3f08a268-01ff-4b7f-9aa7-d7a3a616e12a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_4_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_1_4_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_dashboard_1_4_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_1_4_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-api/accounts-api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts-api/accounts-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-api/accounts-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-api/accounts-api/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hys-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hys-dashboard/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hys-dashboard/src/main/java/com/dashboard/hysdashboard/HysDashboardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hys-dashboard/src/main/java/com/dashboard/hysdashboard/HysDashboardApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-api/accounts-api/service.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.github/workflows/deploy.yaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,50 +66,61 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProjectId" id="2IUbvjzi3D5GncBsxabFiFXwvuJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ashis/Downloads/Projects/Payments-Application&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/ashis/OneDrive/Documents/GitHub/Payments-Application/accounts-api/accounts-api",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ashis\OneDrive\Documents\GitHub\Payments-Application\accounts-api\accounts-api" />
       <recent name="C:\Users\ashis\Downloads\Projects\Payments-Application\balances-api\balances-api\src\main\java\com\payments\balancesapi" />
       <recent name="C:\Users\ashis\Downloads\Projects\Payments-Application\accounts-api\accounts-api\src\main\java\com\payments\accountsapi" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ashis\OneDrive\Documents\GitHub\Payments-Application" />
+      <recent name="C:\Users\ashis\OneDrive\Documents\GitHub\Payments-Application\accounts-api\accounts-api" />
+      <recent name="C:\Users\ashis\OneDrive\Documents\GitHub\Payments-Application\docker" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.payments.accountsapi" />
+      <recent name="com.payments.balancesapi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.payments.accountsapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BalancesApiApplication">
+  <component name="RunManager" selected="JUnit.AccountServiceImplTest">
     <configuration name="AccountsApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.payments.accountsapi.AccountsApiApplication" />
       <module name="accounts-api" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.payments.accountsapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApigatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.apigateway.ApigatewayApplication" />
-      <module name="apigateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.apigateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,15 +141,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eurekaserver.eurekaserver.EurekaServerApplication" />
-      <module name="eureka-server" />
+    <configuration name="AccountServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="accounts-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eurekaserver.eurekaserver.*" />
+          <option name="PATTERN" value="com.payments.accountsapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.payments.accountsapi" />
+      <option name="MAIN_CLASS_NAME" value="com.payments.accountsapi.AccountServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountsRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="accounts-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.payments.accountsapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.payments.accountsapi" />
+      <option name="MAIN_CLASS_NAME" value="com.payments.accountsapi.AccountsRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancesServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="balances-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.payments.balancesapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.payments.balancesapi" />
+      <option name="MAIN_CLASS_NAME" value="com.payments.balancesapi.BalancesServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,12 +199,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AccountsApiApplication" />
+      <item itemvalue="Application.BalancesApiApplication" />
+      <item itemvalue="JUnit.AccountsRepositoryTest" />
+      <item itemvalue="JUnit.BalancesServiceImplTest" />
+      <item itemvalue="JUnit.AccountServiceImplTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountServiceImplTest" />
+        <item itemvalue="JUnit.AccountsRepositoryTest" />
+        <item itemvalue="JUnit.BalancesServiceImplTest" />
         <item itemvalue="Application.BalancesApiApplication" />
-        <item itemvalue="Application.ApigatewayApplication" />
         <item itemvalue="Application.AccountsApiApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -153,5 +240,51 @@
     <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/balances-api/balances-api/src/main/java/com/payments/balancesapi/BalancesServiceImpl.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Payments_Application$AccountServiceImplTest.ic" NAME="AccountServiceImplTest Coverage Results" MODIFIED="1682282787479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.payments.accountsapi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Payments_Application$AccountServiceImplTest_AddAccountsThrowElementAlreadyExistsException.ic" NAME="AccountServiceImplTest.AddAccountsThrowElementAlreadyExistsException Coverage Results" MODIFIED="1678733634000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.payments.accountsapi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Payments_Application$BalancesServiceImplTest.ic" NAME="BalancesServiceImplTest Coverage Results" MODIFIED="1682282388476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.payments.balancesapi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Payments_Application$AccountsRepositoryTest.ic" NAME="AccountsRepositoryTest Coverage Results" MODIFIED="1682282754889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.payments.accountsapi.*</FILTER>
+    </SUITE>
   </component>
 </project>
