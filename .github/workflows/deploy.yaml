@@ -5,14 +5,39 @@ on:
       - main
 env:
   PROJECT_ID: custom-helix-384522
-  IMAGE_NAME: payments-app-image
-  TAG: ${{ github.sha }}
-  REGION: <your GCP region>
-  SERVICE_NAME: my-app
+  IMAGE_TAG: latest
+  GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: 11
+
+      - name: Build JAR
+        run: ./mvnw clean package -DskipTests
+
+      - name: Build and push Docker image
+        uses: GoogleCloudPlatform/github-actions/docker@main
+        with:
+          credentials: ${{ secrets.GCP_SA_KEY }}
+          project_id: ${{ env.PROJECT_ID }}
+          gcr_hostname: gcr.io
+          image_name: my-app
+          tags: ${{ env.IMAGE_TAG }}
+          dockerfile: Dockerfile
+
+      - name: Configure kubectl
+        run: |
+          gcloud auth activate-service-account --key-file <(echo $GCP_SA_KEY)
+          gcloud container clusters get-credentials my-cluster --zone us-central1-c --project $PROJECT_ID
+
+      - name: Deploy to Kubernetes
+        run: |
+          kubectl apply -f deployment.yaml
+          kubectl apply -f service.yaml
