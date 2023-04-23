@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Build JAR
-        run: ./mvnw clean package -DskipTests
       - name: Setup Google Cloud SDK
         uses: google-github-actions/setup-gcloud@main
         with:
