@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Setup Google Cloud SDK
-        uses: google-github-actions/setup-gcloud@main
+        uses: google-github-actions/setup-gcloud@v1
         with:
           project_id: ${{ env.PROJECT_ID }}
           service_account_key: ${{ secrets.GCP_SA_KEY }}
@@ -24,7 +24,7 @@ jobs:
       - name: Build and push backend Docker image
         run: |
           mvn clean package -pl backend -am -DskipTests
-          docker build -t gcr.io/${{ env.PROJECT_ID }}/${{ env.BACKEND_IMAGE_NAME }}:${{ env.BACKEND_IMAGE_TAG }} ./backend
+          docker build -t gcr.io/${{ env.PROJECT_ID }}/${{ env.BACKEND_IMAGE_NAME }}:${{ env.BACKEND_IMAGE_TAG }} ./accounts-api
           docker push gcr.io/${{ env.PROJECT_ID }}/${{ env.BACKEND_IMAGE_NAME }}:${{ env.BACKEND_IMAGE_TAG }}
 
       - name: Configure kubectl
